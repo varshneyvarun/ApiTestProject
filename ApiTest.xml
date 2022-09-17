@@ -1,0 +1,15 @@
+<!--<?xml version="1.0"?>-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Suite">
+    <test name="API TC">
+        <classes>
+            <class name="com.assignment.api.tests.users.PetsTest"/>
+            <class name="com.assignment.api.tests.users.UsersTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.assignment.listeners.AllureListener"/>
+        <listener class-name="com.assignment.listeners.RetryListener"/>
+    </listeners>
+</suite>
