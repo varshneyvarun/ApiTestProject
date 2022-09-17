@@ -1,7 +1,7 @@
-package com.assignment.api.tests.users;
+package com.assignment.api.tests.pets;
 
 import com.assignment.api.common.ApiBaseTest;
-import com.assignment.api.flows.users.PetsFlow;
+import com.assignment.api.flows.pets.PetsFlow;
 import io.qameta.allure.Description;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

@@ -4,7 +4,7 @@
 <suite name="API Suite">
     <test name="API TC">
         <classes>
-            <class name="com.assignment.api.tests.users.PetsTest"/>
+            <class name="com.assignment.api.tests.pets.PetsTest"/>
             <class name="com.assignment.api.tests.users.UsersTest"/>
         </classes>
     </test>
